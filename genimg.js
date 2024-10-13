@@ -23,7 +23,7 @@ function gen() {
   var _hasil = [_link1, _link2, _link3, _link4, _link5, _link6, _link7];
   var _rndx = Math.floor(Math.random() * _hasil.length);
   var _hasil_link_gambar = _hasil[_rndx];
-  document.getElementById("result").innerHTML = _hasil_link_gambar;
+  document.getElementById("result").value = _hasil_link_gambar;
 }
 
 function copy() {
